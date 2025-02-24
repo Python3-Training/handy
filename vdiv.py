@@ -1,4 +1,4 @@
-#! /usr/bin/env
+#!/usr/bin/env python3
 # Mission: Create, share, and enjoy a voltage divider / calculator.
 # Will use tkinter if possible, else the console.
 
