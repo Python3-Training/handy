@@ -52,7 +52,7 @@ def main(fq_filename=None, sleep_time=None, processor=sys.executable):
         parser.add_argument(
             '-p', "--processor",
             default=sys.executable,
-            help="Path to a script file to monitor."
+            help=f"Path to processor. Default is '{sys.executable}.'"
         )
         parser.add_argument(
             "script",
